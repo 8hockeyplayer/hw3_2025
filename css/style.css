@@ -91,6 +91,7 @@ first div in the grid  and place it in the grid. */
 .text-block{
      align-self: center;
      text-align: center;
+     justify-content: center;
 }
 
 /* Add your media query here */
@@ -119,7 +120,10 @@ first div in the grid  and place it in the grid. */
 
   .text-block{
      max-height: 250px;
-     overflow: visible;
+     overflow: hidden;
+     text-align: center;
+     place-items: center;
+
   }
 
  /* Step 13:Write the selector/rule property to update the .text-block class */
